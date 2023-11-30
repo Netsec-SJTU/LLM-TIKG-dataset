@@ -1,10 +1,10 @@
 # LLM-TIKG-dataset
 
-A labeled dataset used for the knowledge graph construction. 
+A labeled dataset used for the threat intelligence knowledge graph construction. In this dataset, unstructured threat intelligence text is analyzed to extract the entities and relationships contained therein.
 
 #### Data Generation:
 
-For the construction of  threat intelligence  knowledge graph,  the few-shot learning capability of the GPT3.5 is used for data annotation with the following promp:
+For the construction of threat intelligence  knowledge graph,  the few-shot learning capability of the GPT3.5 is used for data annotation with the following promp:
 
 ![prompt](fig/prompt.png)
 
